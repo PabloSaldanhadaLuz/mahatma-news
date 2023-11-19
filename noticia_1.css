@@ -70,6 +70,11 @@
     font-size: 5vw;
     font-family: 'Poppins', sans-serif;
 }
+.espaço{
+    background-color: white;
+    grid-row: 9;
+    grid-column: 1/9;   
+}
 .finalizacao_site{
     grid-row: 10;
     grid-column: 1/9;

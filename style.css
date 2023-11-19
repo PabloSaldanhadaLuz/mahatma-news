@@ -121,7 +121,6 @@ body{
 .finalizacao_site{
     grid-row: 10;
     grid-column: 1/9;
-    padding: 1em;
     font-size: 4vw ;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -134,4 +133,5 @@ body{
 .link_finalizacao{
     text-decoration: none;
     color: white;
+    padding: 2em;
 }
