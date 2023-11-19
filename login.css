@@ -1,0 +1,76 @@
+.cabecalho{
+    background-color: #04234B;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+ }
+ body{
+     background-color:#04234B;
+     
+ 
+ }
+ .botao_do_cabeçalho{
+     display: flex;
+     align-items: center;
+ }
+ .imagem_cabeçalho{
+     padding: 1em;
+ }
+ .lista_menu{
+     display: none;
+ }
+ .botao_cabecalho_1:checked ~ .lista_menu{
+     display: block;
+     position: absolute;
+     top: 100%;
+     width: 60vw;
+     background-color: #04234B;
+ 
+ }
+ .lista_menu_itens{
+     padding: 2em;
+     font-size: 18px;
+     font-family: 'Poppins', sans-serif;
+     
+ }
+ .menu_link{
+     color: white;
+     text-decoration: none;
+ }
+ .grid{
+     background-color: #04234B;
+     font-family: 'Alumni Sans', sans-serif;
+     grid-template-columns: repeat(8, 1fr);
+     grid-template-rows: repeat(9, 1fr);
+     max-height: 99vh;
+     display: grid;
+ }
+ .logo_colegio{
+    grid-column: 1/9;
+    grid-row: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+ .text_login{
+    grid-column: 1/9;
+    grid-row: 2;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 2em;
+   
+
+ }
+ .input_texto{
+    width: 60vw;
+    padding: 1em;
+ }
+ .text_login1{
+    text-align: left;
+    font-size: 8vw;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em;
+}
+ 

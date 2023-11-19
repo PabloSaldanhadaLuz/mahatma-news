@@ -7,6 +7,7 @@
 }
 body{
     background-color: white;
+    
 
 }
 .botao_do_cabeçalho{
@@ -75,9 +76,62 @@ body{
     grid-row: 3;
     grid-column: 1/9;
     padding: 1em;
-    text-align: center;
     font-size: 4vw ;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #04234B;
+}
+.noticia_2{
+    grid-row: 4;
+    grid-column: 1/9;
+    padding: 1em;
+    font-size: 4vw ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #04234B;
+}
+.noticia_3{
+    grid-row: 5;
+    grid-column: 1/9;
+    padding: 1em;
+    font-size: 4vw ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #04234B;
+}
+.cor_botao{
+    background-color: rgb(200, 200, 200);
+}
+.botao_mais_noticias{
+    grid-row: 6;
+    grid-column: 1/9;
+    text-align: center;
+    align-items: center;
+    padding: 0.5em;
+    
+}
+.link_botao_noticias{
+     text-decoration: none;
+    font-family: 'Poppins', sans-serif;   
+    color:#04234B;
+}
+.finalizacao_site{
+    grid-row: 10;
+    grid-column: 1/9;
+    padding: 1em;
+    font-size: 4vw ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #04234B;
+    font-size: 4vw;
+}
+
+.link_finalizacao{
+    text-decoration: none;
+    color: white;
 }
