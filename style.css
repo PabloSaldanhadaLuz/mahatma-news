@@ -6,9 +6,7 @@
    position: relative;
 }
 body{
-    background-color: white;
-    
-
+    background-color: white
 }
 .botao_do_cabeçalho{
     display: flex;
@@ -42,7 +40,7 @@ body{
     
     font-family: 'Alumni Sans', sans-serif;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     max-height: 99vh;
     display: grid;
 }
@@ -117,10 +115,10 @@ body{
      text-decoration: none;
     font-family: 'Poppins', sans-serif;   
     color:#04234B;
-}
-.finalizacao_site{
+}.finalizacao_site{
     grid-row: 10;
     grid-column: 1/9;
+    padding: 1em;
     font-size: 4vw ;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -129,9 +127,7 @@ body{
     background-color: #04234B;
     font-size: 4vw;
 }
-
 .link_finalizacao{
     text-decoration: none;
     color: white;
-    padding: 2em;
 }
