@@ -15,24 +15,23 @@
 </head>
 <body>
     <header class="cabecalho">
-    <div class="botao_do_cabeçalho">
-        <input type="checkbox" id="menu" class="botao_cabecalho_1">
-        <span class="menu_botão"> <a class="imagem_cabeçalho" href="#" ><img  src="img/menu.svg" alt="Menu" width="40px"></span></a>
-        <label for="menu">
-        </label>
-    <ul class="lista_menu">
-        <li class="lista_menu_itens"><a href="./noticias.html" class="menu_link">Notícias</a></li>
-        <li class="lista_menu_itens"><a href="http://www.consultaescolas.pr.gov.br/consultaescolas-java/pages/templates/initial2.jsf;jsessionid=1-3F7SBHcLsbUMhL1tHJn6_Pqys25uRwX8ph1kEj.sseed75003?windowId=7b4&codigoEstab=1670&codigoMunicipio=950" class="menu_link">Colégio</a></li>
-        <li class="lista_menu_itens"><a href="./desenvolvimento.html" class="menu_link">Eventos</a></li>
-        <li class="lista_menu_itens"><a href="./desenvolvimento.html" class="menu_link">Matriculas</a></li>
-        <li class="lista_menu_itens"><a href="./desenvolvimento.html" class="menu_link">Projetos</a></li>
-     </ul>
-    </div>
-    <div class="botao_do_cabeçalho">
-        <a href="./login.html"><img class="imagem_cabeçalho" src="img/perfil.svg" alt="Perfil de Loguin" width="50px"></a>
-        <a href="./index.html"> <img class="imagem_cabeçalho" src="img/logo_colegio_ImgID1.png" alt="Logo do Colégio" width="60px"></a>
-    </div>
-    
+        <div class="botao_do_cabeçalho" >
+            <button type="button" class="botao_cabecalho_1" onclick="toggleButton()" >
+                <span class="menu_botão"><a  href="#"><img src="img/menu.svg" alt="Menu" width="40px"></a></span>
+                <label for="menu"></label>
+            </button>
+            <ul class="lista_menu">
+                <li class="lista_menu_itens"><a href="./noticias.html" class="menu_link">Notícias</a></li>
+                <li class="lista_menu_itens"><a href="http://www.consultaescolas.pr.gov.br/consultaescolas-java/pages/templates/initial2.jsf;jsessionid=1-3F7SBHcLsbUMhL1tHJn6_Pqys25uRwX8ph1kEj.sseed75003?windowId=7b4&codigoEstab=1670&codigoMunicipio=950" class="menu_link">Colégio</a></li>
+                <li class="lista_menu_itens"><a href="./desenvolvimento.html" class="menu_link">Eventos</a></li>
+                <li class="lista_menu_itens"><a href="./desenvolvimento.html" class="menu_link">Matrículas</a></li>
+                <li class="lista_menu_itens"><a href="./desenvolvimento.html" class="menu_link">Projetos</a></li>
+            </ul>
+        </div>
+        <div class="botao_do_cabeçalho">
+            <a href="./login.html"><img class="imagem_cabeçalho" src="img/perfil.svg" alt="Perfil de Login" width="50px"></a>
+            <a href="./index.html"><img class="imagem_cabeçalho" src="img/logo_colegio_ImgID1.png" alt="Logo do Colégio" width="60px"></a>
+        </div>
     </header>
     <div class="grid"> 
         <div class="banner_principal">
@@ -72,7 +71,25 @@
             <h3><a class="link_finalizacao" href="https://api.whatsapp.com/send/?phone=554236237923&text&type=phone_number&app_absent=0"> Whatsaap: (42) 3623-7923</a></h3>
             <h3><a class="link_finalizacao" href="https://www.google.com/maps/place/Mahatma+Gandhi,+C+E-Ef+M/@-25.3842682,-51.4464611,15z/data=!4m2!3m1!1s0x0:0xbd711eff00d34d75?sa=X&ved=2ahUKEwi54cTvodCCAxVop5UCHRmeAokQ_BJ6BAg7EAA">Endereço: R. Carambei, 98 - N Rocha Loures, Guarapuava - PR, 85070-320</h3></a>
         </div> 
-    </div>     
+    </div>
+    <script>
+        function toggleButton() {
+  var button = document.querySelector('.botao_cabecalho_1');
+  var listaMenu = document.querySelector('.lista_menu');
+
+  // Verifica se a classe 'ligado' está presente
+  var estaLigado = button.classList.contains('ligado');
+
+  // Alterna entre as classes e ajusta a opacidade da lista
+  if (estaLigado) {
+    button.classList.remove('ligado');
+    listaMenu.style.opacity = 0;
+  } else {
+    button.classList.add('ligado');
+    listaMenu.style.opacity = 1;
+  }
+}
+    </script>     
 
 </body>
 </html>

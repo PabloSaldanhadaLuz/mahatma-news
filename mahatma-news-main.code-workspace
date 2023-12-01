@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/mahatma-news-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mahatma-news-main"
+	}
+}
