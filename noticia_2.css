@@ -111,3 +111,124 @@
     text-decoration: none;
     color: white;
 }
+.finalizacao_site_pc{
+    display:none
+
+}
+.escritas_finalizacao_pc{
+    display:none
+
+}
+.link_finalizacao_pc{
+    display:none
+}
+.link_lista{
+    display: none;
+}
+.logo_1{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .botao_cabecalho_1{
+        display: none;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .logo_1{
+        display: ruby;
+    }
+    .lista_cabecalho{
+        display: ruby;
+    }
+    .lista_cabecalho{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+    .link_lista{
+        text-decoration: none;
+        display: ruby;
+        letter-spacing: 3px;
+        margin-left: 32px;
+        list-style: none;
+        color:rgb(255, 255, 255);
+        font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    }
+    .logo{  
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    }
+    .cabecalho{
+        background-color: #04234B;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 12vh;
+    }
+ 
+.noticia_2{
+    padding: 1em;
+    grid-column: 2/8;
+    grid-row: 1;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #04234B;
+    font-family: 'Poppins', sans-serif;  
+}
+.imagem_noticia_2{
+    grid-column: 2/8;
+    grid-row: 2;
+    display: ruby;
+}
+.paragrafo_noticia_2{
+    grid-column: 1/9;
+    grid-row: 3;
+    font-size: 2.5vw;
+    padding: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .finalizacao_site_pc{
+    display: ruby;
+    grid-row: 10;
+    grid-column: 1/5;
+    padding: 1em;
+    background-color: #04234B;
+}
+.escritas_finalizacao_pc{
+    display: ruby;
+    grid-row: 10;
+    grid-column: 4/9;
+    font-size: 1.5vw ;
+    color: white;
+    background-color: #04234B;
+    padding: 5em;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
+    
+   
+}
+.link_finalizacao_pc{
+    display: ruby;
+    text-decoration: none;
+    color: white;  
+    padding: 10px;
+    display: flex;
+}
+.finalizacao_site{
+display: none;
+}
+.link_finalizacao{
+    display: none;
+}
+}

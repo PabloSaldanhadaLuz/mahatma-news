@@ -23,7 +23,9 @@
     overflow: hidden;
     margin-left: -100vw;
 }
-
+.imagem_colegio{
+    width: 50%;
+}
 .botao_cabecalho_1,
 .lista_menu {
     transition: 0.5s ease;
@@ -111,4 +113,110 @@
     width: 55vw;
     font-family: 'Poppins', sans-serif;
 }
- 
+.finalizacao_site_pc{
+    display:none
+
+}
+.escritas_finalizacao_pc{
+    display:none
+
+}
+.link_finalizacao_pc{
+    display:none
+}
+.link_lista{
+    display: none;
+}
+.logo_1{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .botao_cabecalho_1{
+        display: none;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .logo_1{
+        display: ruby;
+    }
+    .lista_cabecalho{
+        display: ruby;
+    }
+    .lista_cabecalho{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+    .link_lista{
+        text-decoration: none;
+        letter-spacing: 3px;
+        display: ruby;
+        margin-left: 32px;
+        list-style: none;
+        color:rgb(255, 255, 255);
+        font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    }
+    .imagem_colegio{
+        width: 100%;
+    }
+    .logo{  
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    }
+    .cabecalho{
+        background-color: #04234B;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 12vh;
+    }
+    .logo_colegio{
+        grid-row: 2/5;
+        grid-column: 2/4; 
+        width: 100%;
+    }
+    .text_login{
+        grid-column: 5/9;
+        grid-row: 2/4;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 2em;
+        margin-left: -150px;
+       
+    
+     }
+     .input_texto{
+        width: 40vw;
+        padding: 1em;
+     }
+     .text_login1{
+        text-align: left;
+        font-size: 2vw;
+        font-family: 'Poppins', sans-serif;
+        padding: 0.5em;
+    }
+    .botao_loguin{
+        grid-column: 5/9;
+        grid-row: 6;
+        align-items: center;
+        text-align: center;
+    }
+    .botao_loguin_1{
+        text-align: center;
+        align-items: center;
+        padding: 0.5em;
+        font-size: 1.3vw;
+        margin-left: -150px;
+        color: #04234B;  
+        width: 20vw;
+        
+    }
+}
